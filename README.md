@@ -11,7 +11,7 @@ Reference implementation of Megalodon 7B model.
 
 >Xuezhe Ma*, Xiaomeng Yang*, Wenhan Xiong, Beidi Chen, Lili Yu, Hao Zhang, Jonathan May, Luke Zettlemoyer, Omer Levy, Chunting Zhou*
 
-Discord: https://discord.gg/Unf8Fa7kWt](https://discord.gg/Unf8Fa7kWt)
+Discord: [https://discord.gg/Unf8Fa7kWt](https://discord.gg/Unf8Fa7kWt)
 
 ## Updates
 1. [April 15th 2024] Release Repo to public.
