@@ -5,14 +5,16 @@
 -----------------------------------------------
 
 # Megalodon
-Reference implementation of Megalodon 7B model
+Reference implementation of Megalodon 7B model.
 
->[Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length]()
+>[Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length](https://arxiv.org/abs/2404.08801)
 
 >Xuezhe Ma*, Xiaomeng Yang*, Wenhan Xiong, Beidi Chen, Lili Yu, Hao Zhang, Jonathan May, Luke Zettlemoyer, Omer Levy, Chunting Zhou*
 
+Discord: https://discord.gg/Unf8Fa7kWt](https://discord.gg/Unf8Fa7kWt)
+
 ## Updates
-1. [April 18th 2024] Release Repo to public.
+1. [April 15th 2024] Release Repo to public.
 
 ## Installation
 First install PyTorch 2.0.1 with cuda 11.7
@@ -150,8 +152,18 @@ for batch in dataloader:
     optimizer.zero_grad()
 
 ```
+
 ## References
 ```
+@misc{ma2024megalodon,
+      title={Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length}, 
+      author={Xuezhe Ma and Xiaomeng Yang and Wenhan Xiong and Beidi Chen and Lili Yu and Hao Zhang and Jonathan May and Luke Zettlemoyer and Omer Levy and Chunting Zhou},
+      year={2024},
+      eprint={2404.08801},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
 @inproceedings{
   ma2023mega,
   title={Mega: Moving Average Equipped Gated Attention},
